@@ -12,8 +12,8 @@
 
 
 def speak_to_grandma(phrase)
-  answer "HUH?! SPEAK UP, SONNY!"
   if phrase == "I LOVE YOU GRANDMA!"
+    answer "HUH?! SPEAK UP, SONNY!"
      return "NO, NOT SINCE 1938!"
  
   end
